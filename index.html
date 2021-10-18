@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Coding Quiz</title>
 </head>
+
+<!--High Score Sheet-->
+<div class="scores"><a href="highscore.html">View Highscores</a></div>
+
+<!--Quiz Timer-->
+<div class="timer">Time: <span id="time">0</span></div>
+
+<!--Quiz Box and Buttons-->
+
 <body>
-    
+    <div id="start">
+        <h1>Coding Quiz!</h1>
+        <p>
+            It's time to test your knowledge of what you've learned so far!
+        </p>
+        <h5>
+            <p>
+                High Scores will be shown after you completed answering all the multipue choice questions and submitted
+                your initals.
+            </p>
+        </h5>
+        <button id="start-button">
+            start
+        </button>
+    </div>
+    <!--making reusable buttons in HTML that JavScript can reuse-->
+    <div id="question-area">
+        <p id="question-text">
+            Question text
+        </p>
+        <button id="button-one">
+            One
+        </button>
+        <button id="button-two">
+            Two
+        </button>
+        <button id="button-three">
+            Three
+        </button>
+        <button id="button-four">
+            Four
+        </button>
+    </div>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

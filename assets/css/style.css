@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 100px;
+}
+
+#question-area {
+    display: none;
+    flex-flow: column;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+button {
+margin: 5px;
+padding: 5px;
+}
+
+start-button {
+    font-size:  25px;
+    font-weight: 500;
+    color: #007bff;
+}
