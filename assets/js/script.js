@@ -24,4 +24,10 @@ quizArea.addEventListener("click", function(event){
     if(userChoice === questions[currentQuestion].correctAnswer){
         console.log("correct")
     }
-}) 
+})
+
+(function loop(){
+    setTimeout(function() {
+       loop();
+   }, delay);
+ })();
